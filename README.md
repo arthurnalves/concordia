@@ -7,5 +7,5 @@ Pre-requisites:
 yarn
 
 Run with:
-yarn install
-npx nodemon src/index.ts -e html,ts
+* yarn install
+* npx nodemon src/index.ts -e html,ts
