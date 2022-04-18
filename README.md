@@ -4,7 +4,7 @@ https://socket.io/get-started/chat
 Chat proof of concept
 
 Pre-requisites:
-yarn
+* yarn
 
 Run with:
 * yarn install
