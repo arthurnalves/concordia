@@ -5,6 +5,7 @@ Chat proof of concept
 
 Pre-requisites:
 * `yarn`
+Install Yarn
 
 Run with:
 * `yarn install`
