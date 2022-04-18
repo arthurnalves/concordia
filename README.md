@@ -4,8 +4,10 @@ https://socket.io/get-started/chat
 Chat proof of concept
 
 Pre-requisites:
-* yarn
+* `yarn`
 
 Run with:
-* yarn install
-* npx nodemon src/index.ts -e html,ts
+* `yarn install`
+* `npx nodemon src/index.ts -e html,ts`
+
+Check results on: `localhost:3000`
