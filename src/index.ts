@@ -13,8 +13,12 @@ app.get('/', (req: any, res: any) => {
 });
 
 io.on('connection', (socket: any) => {
-    socket.name = faker.name.findName();
-    console.log('a user connected');
+    socket.on('new user', (username) => {
+      username = username || faker.name.findName();
+      console.log(`${username} joined the chat`);
+      socket.name = username;
+    })
+
     socket.on('disconnect', () => {
         console.log('user disconnected');
     });

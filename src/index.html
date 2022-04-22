@@ -71,10 +71,11 @@
 <script src="/socket.io/socket.io.js"></script>
 <script>
     var socket = io();
-
     var messages = document.getElementById('messages');
     var form = document.getElementById('form');
     var input = document.getElementById('input');
+
+    var username = prompt("Who are you, anyway?");
 
     form.addEventListener('submit', function (e) {
         e.preventDefault();
@@ -83,6 +84,8 @@
             input.value = '';
         }
     });
+
+    socket.emit('new user', username);
 
     socket.on('chat message', function (msg) {
         var item = document.createElement('li');
