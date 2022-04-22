@@ -1,4 +1,4 @@
-# Typescript module
+# Concordia (powered by Socket.IO)
 https://socket.io/get-started/chat
 
 Chat proof of concept
