@@ -3,11 +3,10 @@ https://socket.io/get-started/chat
 
 Chat proof of concept
 
-Pre-requisites:
-* `yarn`
+Run on docker with:
 
-Run with:
-* `yarn install`
-* `npx nodemon src/index.ts -e html,ts`
+`docker-compose up --detach`
 
-Check results on: `localhost:3000`
+Check results on:
+
+`localhost:3000`
